@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+#heading{
+    background-color: aliceblue;
+    font-size: 69px;
+    font-weight: bold;
+    color: blue;
+}
+.para{
+    background-color: bisque;
+    color: blueviolet;
+    font-size: 28px;
+    font-style: italic;
+}
+#p2{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 32px;
+}

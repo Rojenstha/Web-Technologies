@@ -1,0 +1,11 @@
+Types of Selector
+1. ID selector(#) - target single element
+2. Class selector(.)
+3. Element Selector
+4. Attribute selector
+5. Universal Selector(*)
+
+(Margin, Padding and Border)
+Margin- Space around element 
+Padding - Space between content and border
+
