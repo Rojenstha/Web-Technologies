@@ -1,0 +1,12 @@
+h1{
+    text-shadow: 2px 2px;
+    color: blueviolet;
+    background-color: black;
+}
+h2{
+    text-shadow: 2px 2px red;
+    color: wheat;
+    background-color: black;
+    position: fixed;
+    top: 50;
+}
