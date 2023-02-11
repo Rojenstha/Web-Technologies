@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+body{
+    overflow: hidden;
+}
+.main-width{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #689775;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-list{
+    position: relative;
+    right: 60px;
+}
+nav .card{
+    width: 35px;
+    height: 24px;
+    right: 10%;
+    top: 60px;
+    z-index: 5;
+    background: whitesmoke;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+nav .card span{
+    display: block;
+    background: #05396B;
+    width: 100%;
+    height: 3px;
+    transition: .3s;
+    transition-property: transform,opacity;
+}
+nav .card span:nth-child(2){
+    margin: 7px 0px;
+}
+nav .nav-list{
+    list-style: none;
+}
+nav .nav-list li{
+    display: inline-block;
+}
+nav .nav-list li a{
+    display: inline-block;
+    color: #eee;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+} 
+nav .nav-list li:not(:last-child) a:hover{
+    color: #05396B;
+    transition: .4s;
+}
+nav .nav-list li.box a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #05396B;
+    padding: 9px 28px;
+    border-radius: 30px;
+    line-height: 1.3;
+    color: #05396B;
+    font-weight: 500;
+}
+nav .nav-list li.box:hover a{
+    background-color: #05396B;
+    color: whitesmoke;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.container{
+    padding-top: 50px;   
+}
+.container .content-text{
+    margin-bottom: 40px;
+}
+.container .content-text h1{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 900;
+    line-height:1.2;
+    margin: 20px 0px 20px;    
+}
+span{
+    color: #05396B;
+}
+.container .content-text h3{
+    color:#eee;
+    font-weight: 400;
+    font-size: 17px;
+}
+.container .content-text p{
+    width: 440px;
+    max-width: 100%;
+    color:#eee;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.container .content-text button{
+    color: #eee;
+    background-color: #05396B;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 30px;
+    border: 2px solid #05396B;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.container .content-text button:hover{
+    background: transparent;
+    border: 2px solid #05396B;
+    color: #05396B;
+    transition: .4s;
+}
+/* my picture */
+.images{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 350px;
+    bottom: 320px;
+    left: 620px;
+    }
+/* Education */
+.sec {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 600px;
+  }
+  
+.school {
+    width: 22.22%;
+    background-color:#EDF5E0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1px;
+  }
+  
+  .school img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .school h3 {
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  .school p {
+    font-size: 14px;
+    padding: 20px;
+  }
+/* Contact */
+.social{
+    padding-top: 10px;
+}
+  .social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.1);
+    margin-bottom: 35px;
+}
+.social a:hover{
+    transform: scale(1.1);
+    background: #05396B;
+    transition: .4s;
+}
+.logo{
+    height: 20px;
+    width: auto;
+}
+/* .bottom{
+    margin-top: 243px;
+    padding-bottom: 40px;
+}
+.bottom p{
+    color: #eee;
+    letter-spacing: 2px;
+    font-size: 15px;
+} */
